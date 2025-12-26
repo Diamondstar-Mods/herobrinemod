@@ -2,3 +2,16 @@
 [26Dec2025 15:57:03.520] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as JetBrains s.r.o. OpenJDK 64-Bit Server VM 21.0.9+1-b1163.86
 [26Dec2025 15:57:03.521] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0 starting: java version 21.0.9 by JetBrains s.r.o.; OS Windows 11 arch amd64 version 10.0
 [26Dec2025 15:57:03.712] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[26Dec2025 15:57:04.584] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/adam/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23157!/ Service=ModLauncher Env=CLIENT
+[26Dec2025 15:57:05.231] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: NVIDIA GeForce RTX 3070/PCIe/SSE2 GL version 3.2.0 NVIDIA 560.94, NVIDIA Corporation
+[26Dec2025 15:57:05.700] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[26Dec2025 15:57:05.715] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		HerobrineMod 1.0.0 (herobrinemod)
+		Minecraft 1.21.8 (minecraft)
+		NeoForge 21.8.31 (neoforge)
+[26Dec2025 15:57:08.252] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.8.31, --assetsDir, C:\Users\adam\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 26]
+[26Dec2025 15:57:11.835] [pool-6-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[26Dec2025 15:57:11.981] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 272 Datafixer optimizations took 1443 milliseconds
