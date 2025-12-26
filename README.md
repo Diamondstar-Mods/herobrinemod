@@ -77,7 +77,7 @@ A Minecraft mod that brings the legendary Herobrine entity and related features 
 
 ## Credits
 
-Created using MCreator. Inspired by Minecraft legends.
+Created using MCreator. 
 
 ## License
 

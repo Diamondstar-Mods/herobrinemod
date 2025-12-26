@@ -16,5 +16,7 @@
   "gamerule.debugMode": "herobrine debug mode",
   "gamerule.herobrineLoaderSpawnDebug.description": "DO NOT TOUCH",
   "gamerule.herobrineLoaderSpawnDebug": "DEBUG DO NOT CHANGE",
-  "item.herobrinemod.restart_fight": "Restart Fight"
+  "item.herobrinemod.restart_fight": "Restart Fight",
+  "gui.herobrinemod.no_replacements.label_cheater": "CHEATER",
+  "gui.herobrinemod.no_replacements.label_dont_be_a_cheater": "Dont be a cheater"
 }
