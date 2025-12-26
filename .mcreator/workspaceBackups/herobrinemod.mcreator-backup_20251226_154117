@@ -1,0 +1,489 @@
+{
+  "mod_elements": [
+    {
+      "name": "Herobrine",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/entity/HerobrineEntity.java",
+          "src/main/resources/assets/herobrinemod/models/item/herobrine_spawn_egg.json",
+          "src/main/resources/assets/herobrinemod/items/herobrine_spawn_egg.json",
+          "src/main/java/net/mcreator/herobrinemod/client/renderer/HerobrineRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "ThatFace",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_face",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herobrinemod/loot_table/blocks/that_face.json",
+          "src/main/resources/assets/herobrinemod/blockstates/that_face.json",
+          "src/main/resources/assets/herobrinemod/models/block/that_face.json",
+          "src/main/java/net/mcreator/herobrinemod/block/ThatFaceBlock.java",
+          "src/main/resources/assets/herobrinemod/items/that_face.json",
+          "src/main/resources/assets/herobrinemod/models/item/that_face.json"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Biome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herobrinemod/worldgen/biome/biome.json",
+          "src/main/resources/data/herobrinemod/worldgen/placed_feature/biome_tree.json",
+          "src/main/java/net/mcreator/herobrinemod/world/features/treedecorators/BiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/herobrinemod/world/features/treedecorators/BiomeTrunkDecorator.java",
+          "src/main/resources/data/herobrinemod/worldgen/configured_feature/biome_tree.json",
+          "src/main/java/net/mcreator/herobrinemod/world/features/treedecorators/BiomeLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/world/teleporter/HerobrineDimensionTeleporter.java",
+          "src/main/resources/data/herobrinemod/dimension/herobrine_dimension.json",
+          "src/main/resources/assets/herobrinemod/blockstates/herobrine_dimension_portal.json",
+          "src/main/java/net/mcreator/herobrinemod/world/dimension/HerobrineDimensionDimension.java",
+          "src/main/java/net/mcreator/herobrinemod/item/HerobrineDimensionItem.java",
+          "src/main/java/net/mcreator/herobrinemod/world/teleporter/HerobrineDimensionPortalShape.java",
+          "src/main/resources/data/herobrinemod/dimension_type/herobrine_dimension.json",
+          "src/main/resources/assets/herobrinemod/models/block/herobrine_dimension_portal_ew.json",
+          "src/main/resources/assets/herobrinemod/items/herobrine_dimension.json",
+          "src/main/java/net/mcreator/herobrinemod/block/HerobrineDimensionPortalBlock.java",
+          "src/main/resources/assets/herobrinemod/models/block/herobrine_dimension_portal_ns.json",
+          "src/main/resources/assets/herobrinemod/models/item/herobrine_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "YouShouldntDoThat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_shouldnt_do_that",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/herobrinemod/items/you_shouldnt_do_that.json",
+          "src/main/java/net/mcreator/herobrinemod/item/YouShouldntDoThatItem.java",
+          "src/main/resources/assets/herobrinemod/models/item/you_shouldnt_do_that.json",
+          "src/main/resources/assets/herobrinemod/models/item/you_shouldnt_do_that_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "YouShouldntDoThatRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_shouldnt_do_that_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/YouShouldntDoThatRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herobrinemod/loot_table/entities/herobrine.json"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/HerobrineEntityDiesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/HerobrineOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/HerobrineEntityIsHurtProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrinePassive",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_passive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/client/renderer/HerobrinePassiveRenderer.java",
+          "src/main/java/net/mcreator/herobrinemod/entity/HerobrinePassiveEntity.java",
+          "src/main/resources/assets/herobrinemod/models/item/herobrine_passive_spawn_egg.json",
+          "src/main/resources/assets/herobrinemod/items/herobrine_passive_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HerobrinePassiveOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_passive_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/HerobrinePassiveOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrinePassiveOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_passive_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/HerobrinePassiveOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineLoader",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_loader",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herobrinemod/neoforge/biome_modifier/herobrine_loader_biome_modifier.json",
+          "src/main/java/net/mcreator/herobrinemod/client/renderer/HerobrineLoaderRenderer.java",
+          "src/main/resources/assets/herobrinemod/models/item/herobrine_loader_spawn_egg.json",
+          "src/main/resources/assets/herobrinemod/items/herobrine_loader_spawn_egg.json",
+          "src/main/java/net/mcreator/herobrinemod/entity/HerobrineLoaderEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HerobrineLoaderOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_loader_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/HerobrineLoaderOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DebugMode",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_mode",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      }
+    },
+    {
+      "name": "HerobrineLoaderSpawnDebug",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herobrine_loader_spawn_debug",
+      "metadata": {
+        "type": "number",
+        "files": []
+      }
+    },
+    {
+      "name": "RestartFightOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restart_fight_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/procedures/RestartFightOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RestartFight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restart_fight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/herobrinemod/models/block/restart_fight.json",
+          "src/main/resources/data/herobrinemod/loot_table/blocks/restart_fight.json",
+          "src/main/java/net/mcreator/herobrinemod/block/RestartFightBlock.java",
+          "src/main/resources/assets/herobrinemod/items/restart_fight.json",
+          "src/main/resources/assets/herobrinemod/blockstates/restart_fight.json",
+          "src/main/resources/assets/herobrinemod/models/item/restart_fight.json"
+        ]
+      }
+    },
+    {
+      "name": "NoReplacements",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_replacements",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herobrinemod/client/gui/NoReplacementsScreen.java",
+          "src/main/java/net/mcreator/herobrinemod/world/inventory/NoReplacementsMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bosstheme",
+      "files": [
+        "antimo__welles_-_minecraft-_story_mode_original_soundtrack_-_13_wither_storm_theme_-101-"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "stevehit",
+      "files": [
+        "hit3",
+        "hit2",
+        "hit1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.herobrinemod.herobrine": "HerobrineBoss",
+      "item.herobrinemod.herobrine_spawn_egg": "HerobrineBoss Spawn Egg",
+      "item.herobrinemod.that_face": "That Face",
+      "item_group.herobrinemod.herobrine_mod": "Herobrine Mod",
+      "biome.herobrinemod.biome": "herobrienbiome",
+      "subtitles.bosstheme": "",
+      "item.herobrinemod.herobrine_dimension": "herobrinelighter",
+      "item.herobrinemod.you_shouldnt_do_that": "Cheater...",
+      "subtitles.stevehit": "",
+      "item.herobrinemod.herobrine_passive_spawn_egg": "HerobrinePassive Spawn Egg",
+      "entity.herobrinemod.herobrine_passive": "HerobrinePassive",
+      "entity.herobrinemod.herobrine_loader": "Herobrine Loader",
+      "item.herobrinemod.herobrine_loader_spawn_egg": "Herobrine Loader Spawn Egg",
+      "gamerule.debugMode.description": "debug mode",
+      "gamerule.debugMode": "herobrine debug mode",
+      "gamerule.herobrineLoaderSpawnDebug.description": "DO NOT TOUCH",
+      "gamerule.herobrineLoaderSpawnDebug": "DEBUG DO NOT CHANGE",
+      "item.herobrinemod.restart_fight": "Restart Fight",
+      "gui.herobrinemod.no_replacements.label_cheater": "CHEATER",
+      "gui.herobrinemod.no_replacements.label_dont_be_a_cheater": "Dont be a cheater"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModScreens.java",
+      "src/main/java/net/mcreator/herobrinemod/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModMenus.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModGameRules.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModBlocks.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModItems.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModEntityRenderers.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModEntities.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/herobrinemod/sounds.json",
+      "src/main/java/net/mcreator/herobrinemod/HerobrinemodMod.java",
+      "src/main/java/net/mcreator/herobrinemod/init/HerobrinemodModSounds.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "herobrinemod",
+    "modName": "HerobrineMod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.herobrinemod"
+  },
+  "mcreatorVersion": 202500451616
+}

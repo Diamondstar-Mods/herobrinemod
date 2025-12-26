@@ -1,0 +1,26 @@
+{
+  "bosstheme": {
+    "sounds": [
+      {
+        "name": "herobrinemod:antimo__welles_-_minecraft-_story_mode_original_soundtrack_-_13_wither_storm_theme_-101-",
+        "stream": false
+      }
+    ]
+  },
+  "stevehit": {
+    "sounds": [
+      {
+        "name": "herobrinemod:hit3",
+        "stream": false
+      },
+      {
+        "name": "herobrinemod:hit2",
+        "stream": false
+      },
+      {
+        "name": "herobrinemod:hit1",
+        "stream": false
+      }
+    ]
+  }
+}

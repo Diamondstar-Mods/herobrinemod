@@ -1,0 +1,12 @@
+{
+  "_fv": 81,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "DEBUG DO NOT CHANGE",
+    "description": "DO NOT TOUCH",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

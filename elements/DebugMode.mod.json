@@ -1,0 +1,12 @@
+{
+  "_fv": 81,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "herobrine debug mode",
+    "description": "debug mode",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

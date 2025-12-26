@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "herobrinemod:block/restart",
+    "up": "herobrinemod:block/restart",
+    "north": "herobrinemod:block/restart",
+    "east": "herobrinemod:block/restart",
+    "south": "herobrinemod:block/restart",
+    "west": "herobrinemod:block/restart",
+    "particle": "herobrinemod:block/restart"
+  },
+  "render_type": "solid"
+}

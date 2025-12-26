@@ -1,0 +1,20 @@
+{
+  "entity.herobrinemod.herobrine": "HerobrineBoss",
+  "item.herobrinemod.herobrine_spawn_egg": "HerobrineBoss Spawn Egg",
+  "item.herobrinemod.that_face": "That Face",
+  "item_group.herobrinemod.herobrine_mod": "Herobrine Mod",
+  "biome.herobrinemod.biome": "herobrienbiome",
+  "subtitles.bosstheme": "",
+  "item.herobrinemod.herobrine_dimension": "herobrinelighter",
+  "item.herobrinemod.you_shouldnt_do_that": "Cheater...",
+  "subtitles.stevehit": "",
+  "item.herobrinemod.herobrine_passive_spawn_egg": "HerobrinePassive Spawn Egg",
+  "entity.herobrinemod.herobrine_passive": "HerobrinePassive",
+  "entity.herobrinemod.herobrine_loader": "Herobrine Loader",
+  "item.herobrinemod.herobrine_loader_spawn_egg": "Herobrine Loader Spawn Egg",
+  "gamerule.debugMode.description": "debug mode",
+  "gamerule.debugMode": "herobrine debug mode",
+  "gamerule.herobrineLoaderSpawnDebug.description": "DO NOT TOUCH",
+  "gamerule.herobrineLoaderSpawnDebug": "DEBUG DO NOT CHANGE",
+  "item.herobrinemod.restart_fight": "Restart Fight"
+}

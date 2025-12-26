@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "herobrinemod:block/screenshot_2025-12-26_141313",
+    "up": "herobrinemod:block/screenshot_2025-12-26_141313",
+    "north": "herobrinemod:block/screenshot_2025-12-26_141313",
+    "east": "herobrinemod:block/screenshot_2025-12-26_141313",
+    "south": "herobrinemod:block/screenshot_2025-12-26_141313",
+    "west": "herobrinemod:block/screenshot_2025-12-26_141313",
+    "particle": "herobrinemod:block/herbrineblock"
+  },
+  "render_type": "solid"
+}

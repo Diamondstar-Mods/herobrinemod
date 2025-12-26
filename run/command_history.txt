@@ -1,0 +1,9 @@
+/give @s herobrinemod:herobrine_dimension
+/give @s herobrinemod:that_face
+/summon herobrinemod:herobrine_passive
+/gamerule debugMode
+/gamerule debugMode true
+/summon herobrinemod:herobrine_loader
+/gamemode survival
+/gamemode creative
+/kill @e[type=herobrinemod:herobrine]
